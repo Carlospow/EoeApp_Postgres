@@ -1,0 +1,118 @@
+;; Object views/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "views/"
+  :tables (list 
+   (semanticdb-table "config.scala.html"
+    :major-mode 'django-html-mode
+    :tags '(("}
+
+@main(\"Configuracion\")(styles)(scripts){
+
+	<h1> Configuración" section nil nil [138 246]) ("}
+
+@main(\"Configuracion\")(styles)(scripts){
+
+	<h1> Configuración" section (:members (("Configuración" section (:members (("Configura tus preferencias para las consultas" section (:members (("Alto" section nil nil [532 1750]) ("Medio" section nil nil [1750 2946]) ("Bajo" section nil nil [2946 2949]))) nil [449 452]))) nil [384 387]))) nil [246 254]))
+    :file "config.scala.html"
+    :pointmax 4132
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "main.scala.html"
+    :major-mode 'django-html-mode
+    :tags '(("Encuesta de Opinion Estudiantil Difusa - @title" section nil nil [400 716]) ("@scripts" section nil nil [716 873]) ("@content" section (:members (("Inicio" section nil nil [1232 1283]) ("Consultas Simples" section nil nil [1283 1353]) ("Consultas Compuestas" section nil nil [1353 1428]) ("Configuración" section nil nil [1428 1617]) ("Links de interés" section nil nil [1617 1620]))) nil [873 878]))
+    :file "main.scala.html"
+    :pointmax 2181
+    )
+   (semanticdb-table "index.scala.html"
+    :major-mode 'django-html-mode
+    :tags '(("$(document).ready(function() {
+	 		$(\"#faq\").accordion({
+				active: false,
+				collapsible: true,
+				heightStyle: \"content\"
+			});
+		});" section nil nil [140 248]) ("$(document).ready(function() {
+	 		$(\"#faq\").accordion({
+				active: false,
+				collapsible: true,
+				heightStyle: \"content\"
+			});
+		});" section (:members (("Módulo de Consultas Difusas para la Encuesta de Opinión Estudiantil" section (:members (("Configuración" section nil nil [1064 1186]))) nil [450 1186]) ("Preguntas Frecuentes" section (:members (("¿Por qué en la configuración los valores aceptan decimales?" section nil nil [1244 1506]) ("¿Donde puedo conseguir más información acerca del sistema?" section nil nil [1506 1747]) ("¿De dónde sale la información reflejada en los resultados?" section nil nil [1747 2131]) ("¿Por qué no salen las otras preguntas de la encuesta?" section nil nil [2131 2134]))) nil [1186 1189]))) nil [248 255]))
+    :file "index.scala.html"
+    :pointmax 2661
+    )
+   (semanticdb-table "questions.scala.html"
+    :major-mode 'django-html-mode
+    :tags '(("Preguntas Compuestas" section nil nil [97 100]))
+    :file "questions.scala.html"
+    :pointmax 2763
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "questions2.scala.html"
+    :major-mode 'django-html-mode
+    :tags '(("Preguntas Simples" section nil nil [97 100]))
+    :file "questions2.scala.html"
+    :pointmax 3656
+    )
+   (semanticdb-table "respuestas.scala.html"
+    :major-mode 'django-html-mode
+    :tags '(("$(document).ready( function() {
+  $('table').dataTable( {
+  \"oLanguage\": {
+  \"sSearch\": \"Buscar:\",
+  \"sEmptyTable\": \"No hay datos que correspondan con su busqueda\",
+  \"sInfo\": \"Mostrando elementos del _START_ al  _END_ de _TOTAL_ elementos\",
+  \"sInfoEmpty\": \"No hay resultados que mostrar\",
+  \"sLengthMenu\": \"Mostrar _MENU_ resultados por página\",
+  \"sInfoFiltered\": \" - filtrados de _MAX_ resultados\",
+  \"oPaginate\": {
+  \"sPrevious\": \"Página previa\",
+  \"sNext\": \"Página proxima\",
+  \"sFirst\" : \"Primera\",
+  \"sLast\": \"Última\"
+  }
+  }
+  } );
+  } );" section nil nil [148 239]) ("$(document).ready( function() {
+  $('table').dataTable( {
+  \"oLanguage\": {
+  \"sSearch\": \"Buscar:\",
+  \"sEmptyTable\": \"No hay datos que correspondan con su busqueda\",
+  \"sInfo\": \"Mostrando elementos del _START_ al  _END_ de _TOTAL_ elementos\",
+  \"sInfoEmpty\": \"No hay resultados que mostrar\",
+  \"sLengthMenu\": \"Mostrar _MENU_ resultados por página\",
+  \"sInfoFiltered\": \" - filtrados de _MAX_ resultados\",
+  \"oPaginate\": {
+  \"sPrevious\": \"Página previa\",
+  \"sNext\": \"Página proxima\",
+  \"sFirst\" : \"Primera\",
+  \"sLast\": \"Última\"
+  }
+  }
+  } );
+  } );" section nil nil [239 342]) ("$(document).ready( function() {
+  $('table').dataTable( {
+  \"oLanguage\": {
+  \"sSearch\": \"Buscar:\",
+  \"sEmptyTable\": \"No hay datos que correspondan con su busqueda\",
+  \"sInfo\": \"Mostrando elementos del _START_ al  _END_ de _TOTAL_ elementos\",
+  \"sInfoEmpty\": \"No hay resultados que mostrar\",
+  \"sLengthMenu\": \"Mostrar _MENU_ resultados por página\",
+  \"sInfoFiltered\": \" - filtrados de _MAX_ resultados\",
+  \"oPaginate\": {
+  \"sPrevious\": \"Página previa\",
+  \"sNext\": \"Página proxima\",
+  \"sFirst\" : \"Primera\",
+  \"sLast\": \"Última\"
+  }
+  }
+  } );
+  } );" section nil nil [342 349]))
+    :file "respuestas.scala.html"
+    :pointmax 1000
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

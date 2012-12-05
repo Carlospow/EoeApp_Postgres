@@ -1,0 +1,89 @@
+@(id : String)
+
+@styles = {
+}
+
+@scripts = {
+}
+
+@import helper._
+
+@main("Preguntas")(styles)(scripts){
+         @(id)
+         <h1> Preguntas Compuestas</h1>
+     
+
+         <ul>
+
+         <li>@form(routes.Application.preguntaUnoC()) {        
+         <p class="preguntas">
+           ¿Que materias son de dificultad  
+             <select name="p1parte1">
+               <option value="dificultad_bajo">baja</option>
+               <option value="dificultad_medio">medio</option>
+               <option value="dificultad_alto">alta</option>
+             </select>
+             y las imparten profesores con un desempeno global
+             <select name="p1parte2">
+               <option value="calidad_prof_bajo">bajo</option>
+               <option value="calidad_prof_medio">medio</option>
+               <option value="calidad_prof_alto">alto</option>
+             </select> 
+           </p>
+           <input type="submit" value="Enviar" class="b_submit"></input>
+	        }
+    
+         
+         </li>
+         </br>
+         </br>
+         <hr>
+         
+         <li>@form(routes.Application.preguntaDosC()) {
+           <p class="preguntas">
+           ¿Cuales son las materias con un nivel de utilidad  
+             <select name="p2parte1">
+               <option value="utilidad_bajo">baja</option>
+               <option value="utilidad_medio">medio</option>
+               <option value="utilidad_alto">alta</option>
+             </select>
+             y requieren de un grado de esfuerzo
+             <select name="p2parte2">
+               <option value="esfuerzo_bajo">bajo</option>
+               <option value="esfuerzo_medio">medio</option>
+               <option value="esfuerzo_alto">alto</option>
+             </select> 
+           </p>
+           <input type="submit" value="Enviar" class="b_submit"></input>
+         }
+
+         
+         </li>
+         </br>
+         </br>
+         <hr>
+
+         <li>@form(routes.Application.preguntaTresC()) {
+           <p class="preguntas">
+           ¿Que materias tienen un grado de utidad  
+             <select name="p3parte1">
+               <option value="utilidad_bajo">baja</option>
+               <option value="utilidad_medio">medio</option>
+               <option value="utilidad_alto">alta</option>
+             </select>
+             y las imparten prefesores con un desempeno global
+             <select name="p3parte2">
+               <option value="calidad_prof_bajo">bajo</option>
+               <option value="calidad_prof_medio">medio</option>
+               <option value="calidad_prof_alto">alto</option>
+             </select> 
+           </p>
+           <input type="submit" value="Enviar" class="b_submit"></input>
+         }
+          </li>
+         </br>
+         </br>
+         
+         </ul> 
+
+}
